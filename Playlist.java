@@ -1,1 +1,4 @@
 // JavaScript source code
+{
+    void
+        }
