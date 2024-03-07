@@ -59,4 +59,26 @@ public class DoublyLinkedList {
     }
 
 }
+public class CircularLinkedList {
+    private Node head;
+    private Node tail;
 
+    public CircularLinkedList() {
+        this.head = null;
+        this.tail = null;
+    }
+
+    // Método para insertar al final de la lista
+    public void insertAtEnd(MP3File data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            tail = newNode;
+            tail.next = head; // Hacer la lista circular
+        } else {
+            tail.next = newNode;
+            newNode.next = head;
+            tail = newNode;
+        }
+    }
+}
