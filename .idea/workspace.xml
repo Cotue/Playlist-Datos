@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c17afbc-c299-467d-8c83-0d578eb033df" name="Changes" comment="Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/Logica/Listas/ListaDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/Listas/ListaDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/Logica/ReproductorMusica.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/ReproductorMusica.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c17afbc-c299-467d-8c83-0d578eb033df" name="Changes" comment="Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +18,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Cotue"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cotue&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -56,7 +51,6 @@
     "Application.MainWindow.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Josue/user",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/X/Documents/GitHub/Playlist-Datos",
     "node.js.detected.package.eslint": "true",
