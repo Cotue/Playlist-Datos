@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c17afbc-c299-467d-8c83-0d578eb033df" name="Changes" comment="Commit" />
+    <list default="true" id="1c17afbc-c299-467d-8c83-0d578eb033df" name="Changes" comment="Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/Listas/ListaDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/Listas/ListaDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/ReproductorMusica.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/ReproductorMusica.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
