@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|c:\\users\\usuario\\desktop\\universidad\\2024_s1\\datos 1\\community_playlist\\cliente\\communityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:communityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommunityClient.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\CommunityClient.cs",
+              "RelativeDocumentMoniker": "CommunityClient.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\CommunityClient.cs",
+              "RelativeToolTip": "CommunityClient.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:25:47.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T07:05:21.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T07:00:30.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T06:56:46.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

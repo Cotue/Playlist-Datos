@@ -5,7 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c17afbc-c299-467d-8c83-0d578eb033df" name="Changes" comment="Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/CommunityClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/cliente.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/cliente.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Interface/MainWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Interface/MainWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/CommunityServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/CustomServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/Lists/ListaDouble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/MusicInventory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/MusicPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Interface/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logic/CommunityServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logic/CustomServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logic/Lists/ListaDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logic/MusicInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logic/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Community_Playlist/FileContentIndex/bf6c96c3-5a9e-44d8-b90e-c736940c5d36.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Community_Playlist/v17/.wsuo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Community_Playlist/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Interfaz/MainWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Interfaz/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logica/InventarioCanciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logica/ServidorComunitario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Interfaz/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/ServidorComunitario.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +91,7 @@
     "Application.MainWindow.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Joel/user",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/X/Documents/GitHub/Playlist-Datos",
     "node.js.detected.package.eslint": "true",
