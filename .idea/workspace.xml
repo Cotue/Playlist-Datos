@@ -5,55 +5,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c17afbc-c299-467d-8c83-0d578eb033df" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/CommunityClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Form1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Form1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Form1.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/Properties/Settings.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/cliente.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente/cliente.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Interface/MainWindow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Interface/MainWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/CommunityServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/CustomServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/Lists/ListaDouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/MusicInventory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/server/Logic/MusicPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/Interface/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/Logic/CommunityServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/Logic/CustomServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/Logic/Lists/ListaDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/Logic/MusicInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/Logic/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Community_Playlist/FileContentIndex/bf6c96c3-5a9e-44d8-b90e-c736940c5d36.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Community_Playlist/v17/.wsuo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Community_Playlist/v17/DocumentLayout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/Interfaz/MainWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/Interfaz/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/Logica/InventarioCanciones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/Logica/ServidorComunitario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/Interfaz/MainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/Logica/ServidorComunitario.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jlayer_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/InventarioCanciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/ListaDouble$MP3File.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/ListaDouble$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/ListaDouble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid - 50 Palos.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid - Alakran.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid - Desquite.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid - Esquirla.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid - Interlude.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid - Yo AK.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid ft ATL Jacob - Luna.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid ft Mañas Ru-Fino - La Vuelta.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid ft Pirlo - Cual es Esa.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Feid ft Young Miko - Classy 101 (By WalterWeb).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Aquel Nap ZzZz.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Cosa Guapa.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Cuando Fue.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Curame.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Desenfocao.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - La Old Skul.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Loading V.V..mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Nubes.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Sexo Virtual.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro - Todo De Ti.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro ft Anitta - Brazilera.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro ft Lyanno ft Caleb Calloway - Tengo Un Pal.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro ft Mr. Naisgai - 2 Catorce.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/server/Logica/Listas/Canciones/Rauw Alejandro ft Tainy - Y Eso.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/InventarioCanciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/ListaDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid - 50 Palos.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid - Alakran.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid - Desquite.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid - Esquirla.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid - Interlude.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid - Yo AK.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid ft ATL Jacob - Luna.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid ft Mañas Ru-Fino - La Vuelta.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid ft Pirlo - Cual es Esa.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Feid ft Young Miko - Classy 101 (By WalterWeb).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Aquel Nap ZzZz.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Cosa Guapa.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Cuando Fue.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Curame.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Desenfocao.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - La Old Skul.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Loading V.V..mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Nubes.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Sexo Virtual.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro - Todo De Ti.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro ft Anitta - Brazilera.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro ft Lyanno ft Caleb Calloway - Tengo Un Pal.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro ft Mr. Naisgai - 2 Catorce.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Listas/Canciones/Rauw Alejandro ft Tainy - Y Eso.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/Logica/Logica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Community_Playlist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_03_2024_12_33_p__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_03_2024_12_33_p__m___Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datos Java Server/Listas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/.vs/cliente/FileContentIndex/5c14d097-903c-4e37-bd7e-e5be91dc60bc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/.vs/cliente/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/.vs/cliente/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/obj/Debug/cliente.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/obj/Debug/cliente.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo_anterior" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Interface/MainWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Interface/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logic/CommunityServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logic/CustomServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logic/Lists/ListaDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logic/MusicInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logic/MusicPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logica/Listas/ListaDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/Logica/ReproductorMusica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Interface/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logic/CommunityServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logic/CustomServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logic/Lists/ListaDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logic/MusicInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logic/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/Listas/ListaDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/Logica/ReproductorMusica.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/Logica/ReproductorMusica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Josue/user" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +121,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="9c98eee5-454f-4715-b68f-9cb9979066f1" />
+        <option name="accountId" value="4a292314-b88f-44c5-a753-8f89e7622a6a" />
         <option name="url" value="https://github.com/Cotue/Playlist-Datos.git" />
       </UrlAndAccount>
     </option>
@@ -86,25 +140,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainWindow.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Joel/user",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/X/Documents/GitHub/Playlist-Datos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InventarioCanciones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReproductorMusica.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Joel/user2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/jlayer-1.0.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\GitHub\Playlist-Datos\server\src\Logica\Listas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\GitHub\Playlist-Datos\server\src\Logica\Listas\Canciones" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Logica.Listas" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Interfaz.MainWindow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainWindow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,16 +211,34 @@
       <option name="presentableId" value="Default" />
       <updated>1710526959051</updated>
       <workItem from="1710526960062" duration="757000" />
+      <workItem from="1710814818139" duration="89000" />
+      <workItem from="1710814916827" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
-      <created>1710626853838</created>
+      <created>1710627586340</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1710626853838</updated>
+      <updated>1710627586340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1710628458202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710628458202</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1710738752227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710738752227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +247,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/Interfaz/MainWindow.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
