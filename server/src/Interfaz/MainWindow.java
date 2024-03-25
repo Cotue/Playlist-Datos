@@ -5,6 +5,7 @@ import Logica.CustomServer;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.*;
 
 
 public class MainWindow {
@@ -19,13 +20,9 @@ public class MainWindow {
         f.setSize(1200,800);//400 width and 500 height
         f.setLayout(null);//using no layout managers
         f.setVisible(true);//making the frame visible
-        btnOpenCommunity.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("PRESS");
-                CustomServer newServer = new CustomServer();
-                newServer.OpenServer();
-
-            };
+        btnOpenCommunity.addActionListener(e -> {
+            CustomServer newServer = new CustomServer();
+            newServer.OpenServer();
         });
     }
 }

@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Net;
 using System.Net.Sockets;
-using System.Windows.Forms;
-using cliente;
 using System.Threading;
 
 namespace Sockets
@@ -16,8 +10,8 @@ namespace Sockets
         private int port;
         private TcpClient client;
         private NetworkStream stream;
-        
-        
+
+
 
         public ClientSocket(int port, int sendTimeout, int receiveTimeout)
         {
@@ -29,7 +23,7 @@ namespace Sockets
             stream = client.GetStream();
         }
 
-        
+
 
         public void processData(String data)
         {
@@ -63,48 +57,39 @@ namespace Sockets
 
     }
 
-    class Client
+
+
+    class ConnectToServer
     {
-
-        static void Main (string[] args)
+        public bool connected = false;
+        public bool Start()
         {
-            
-            try
+            ClientSocket clientSock;
+            while (!connected)
             {
-                ClientSocket clientSock = new ClientSocket(1234, 3000, 3000);
-                String data = "Hello World";
+                Console.WriteLine("Buscando conexión");
+                try
+                {
+                    clientSock = new ClientSocket(1234, 3000, 3000);
 
-                clientSock.processData(data);
-
-                Window window = new Window();
-                
-
-                ThreadStart childref = new ThreadStart(window.CreateWindow);
-                Thread childThread = new Thread(childref);
-                childThread.Start();
-                
+                    clientSock.processData("Conectado");
 
 
 
+                    connected = true;
+                    Console.WriteLine(connected);
+
+
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine("Falló al conectar. Reintentando en 3 segundos...");
+                    Thread.Sleep(3000);
+                }
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
 
-            Console.WriteLine("Press Enter to close the connection");
-
-            Console.Read();
-        }
-    }
-
-    class Window
-    {
-        public void CreateWindow()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            return connected;
         }
     }
 }
+

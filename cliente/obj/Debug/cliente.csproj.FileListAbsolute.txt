@@ -8,3 +8,14 @@ C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\
 C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\obj\Debug\cliente.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\obj\Debug\cliente.exe
 C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\obj\Debug\cliente.pdb
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\cliente.exe.config
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\cliente.exe
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\cliente.pdb
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.Form1.resources
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.Properties.Resources.resources
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.exe
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.pdb
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.Form2.resources

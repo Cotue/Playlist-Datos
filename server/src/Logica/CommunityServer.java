@@ -18,6 +18,13 @@ public class CommunityServer {
     }
 
     public void startServer() {
+
+        if (isPortInUse(port)) {
+            System.out.println("Port " + port + " is already in use. Cannot start server.");
+            return;
+        }
+
+
         try (ServerSocket serverSocket = new ServerSocket(port, backlog)) {
 
             System.out.println("Started Listening for clients");
@@ -40,6 +47,14 @@ public class CommunityServer {
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+        }
+    }
+
+    private boolean isPortInUse(int port) {
+        try (ServerSocket ignored = new ServerSocket(port)) {
+            return false;
+        } catch (IOException e) {
+            return true;
         }
     }
 
