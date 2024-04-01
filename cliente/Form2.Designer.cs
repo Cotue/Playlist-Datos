@@ -34,7 +34,7 @@
             // 
             // Mensaje
             // 
-            this.Mensaje.Location = new System.Drawing.Point(350, 215);
+            this.Mensaje.Location = new System.Drawing.Point(677, 179);
             this.Mensaje.Name = "Mensaje";
             this.Mensaje.Size = new System.Drawing.Size(100, 20);
             this.Mensaje.TabIndex = 2;
@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(363, 117);
+            this.button1.Location = new System.Drawing.Point(686, 118);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;

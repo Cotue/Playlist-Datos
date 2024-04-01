@@ -1,6 +1,7 @@
 package Logica;
 import javax.sound.sampled.*;
 import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ReproductorMusica {
@@ -70,7 +71,7 @@ public class ReproductorMusica {
         System.out.println("Reproduciendo canción anterior: " + currentSong.data.getFile().getName());
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         InventarioCanciones inventario = new InventarioCanciones();
         ListaDouble listaCanciones = InventarioCanciones.obtenerListaCanciones();
 

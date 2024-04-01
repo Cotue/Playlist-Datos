@@ -56,7 +56,7 @@
             this.labelConnecting.BackColor = System.Drawing.Color.Transparent;
             this.labelConnecting.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelConnecting.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelConnecting.ForeColor = System.Drawing.Color.Black;
+            this.labelConnecting.ForeColor = System.Drawing.Color.White;
             this.labelConnecting.Location = new System.Drawing.Point(0, 0);
             this.labelConnecting.Name = "labelConnecting";
             this.labelConnecting.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
