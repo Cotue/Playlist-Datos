@@ -1,9 +1,10 @@
 package Logica;
+
 import java.io.File;
 
 public class InventarioCanciones {
     public static ListaDouble obtenerListaCanciones() {
-        File carpeta = new File("C:\\Users\\Usuario\\Documents\\GitHub\\Playlist-Datos\\server\\src\\Logica\\Listas\\Canciones");
+        File carpeta = new File("C:\\Users\\X\\Documents\\Proyecto PL\\Playlist-Datos\\server\\src\\Logica\\Listas\\Canciones");
 
         // Verificar si el directorio "Canciones" existe
         if (!carpeta.exists() || !carpeta.isDirectory()) {
@@ -20,10 +21,12 @@ public class InventarioCanciones {
 
         // Crear la lista de canciones
         ListaDouble lista = new ListaDouble(archivos);
+        lista.sortDescending(); // Ordenar la lista en orden descendente
         return lista;
     }
+
     public static void main(String[] args) {
-        File carpeta = new File("C:\\Users\\Usuario\\Documents\\GitHub\\Playlist-Datos\\server\\src\\Logica\\Listas\\Canciones");
+        File carpeta = new File("C:\\Users\\X\\Documents\\Proyecto PL\\Playlist-Datos\\server\\src\\Logica\\Listas\\Canciones");
 
         // Verificar si el directorio "Canciones" existe
         if (!carpeta.exists() || !carpeta.isDirectory()) {
@@ -40,6 +43,7 @@ public class InventarioCanciones {
 
         // Crear la lista de canciones
         ListaDouble lista = new ListaDouble(archivos);
-        lista.display();
+        lista.sortDescending(); // Ordenar la lista en orden descendente
+        lista.display(); // Mostrar la lista ordenada
     }
 }
