@@ -12,7 +12,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
-
+import java.util.UUID;
 
 
 public class ListaDouble {
@@ -347,6 +347,26 @@ public class ListaDouble {
             numeroElementos++;
         }
         return numeroElementos;
+    }
+
+    public String toStringList() throws IOException {
+        String lista = new String();
+        if (isEmpty()) {
+            System.out.println("La lista está vacía.");
+            return "";
+        }
+
+        Node current = head;
+        while (current != null) {
+            UUID uuid = UUID.randomUUID();
+            String id = uuid.toString();
+            String song = getMetadata(current).getFirst(FieldKey.TITLE);
+            String artist = getMetadata(current).getFirst(FieldKey.ARTIST);
+            current = current.next;
+            lista = lista.concat("{\"id\":\"" + id + "\",\"song\":\"" + song + "\",\"artist\":\"" + artist + "\"},");
+        }
+        String removeLastComma = lista.substring(0, lista.length() - 1);
+        return removeLastComma;
     }
 
     public Node getHead() {

@@ -368,13 +368,7 @@ public class MainWindow{
 
 
 
-//    private void addGuiComponents() {
-//        addToolBar();
-//    }
-//
-//    private void addToolBar() {
-//        JToolBar toolBar = new JToolBar();
-//        toolBar.setBounds(0, 0, getWidth(), 20);
+
 //
 //
 //    }

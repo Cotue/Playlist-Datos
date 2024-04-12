@@ -30,7 +30,7 @@ namespace cliente
             string vote = JsonSerializer.Serialize(downVote);
             //string mensaje = Mensaje.Text;
             //clientSocket.processData(json);
-            clientSocket.processData(vote);
+            clientSocket.processData(json);
             
         }
 

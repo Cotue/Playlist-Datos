@@ -3,6 +3,7 @@ package Logica;
 
 
 
+import javax.swing.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
@@ -64,11 +65,21 @@ public class CommunityServer {
         }
     }
 
-    private String getResponse(String dataFromClient){
+    private String getResponse(String dataFromClient) throws IOException {
 
+        String lista = new String(InventarioCanciones.listaCanciones.toStringList());
+        String respuesta = "";
         //JsonObject command = new JsonObject();
-        System.out.println(dataFromClient);
-        return dataFromClient.toUpperCase();
+        if (dataFromClient.contains("Get-Playlist")){
+            respuesta = new String("{\"command\":\"Get-Playlist\",\"status\":\"OK\",\"list\":[" + lista + "]}");
+            System.out.println(respuesta);
+        } else if (dataFromClient.contains("Vote-down")) {
+            
+        } else if (dataFromClient.contains("Vote-up")) {
+            
+        }
+
+        return respuesta;
     }
 
 }
