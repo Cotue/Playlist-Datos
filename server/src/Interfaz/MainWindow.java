@@ -34,7 +34,7 @@ public class MainWindow{
 
     private void getInitialLists() {
         try {
-            InventarioCanciones.createInitialSongList();
+            InventarioCanciones.obtenerListaCanciones();
 
         } catch (IOException e) {
             throw new RuntimeException(e);

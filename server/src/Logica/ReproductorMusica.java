@@ -9,11 +9,15 @@ public class ReproductorMusica {
     private ListaDouble listaCanciones;
     private ListaDouble.Node currentSong;
     private Player player;
+    private boolean isPaused;
+    private long pausePosition;
 
     public ReproductorMusica(ListaDouble listaCanciones) {
         this.listaCanciones = listaCanciones;
         this.currentSong = null;
         this.player = null;
+        this.isPaused = false;
+        this.pausePosition = 0;
     }
 
     public void reproducirCancion(String nombreCancion) {
@@ -30,6 +34,39 @@ public class ReproductorMusica {
         }
         System.out.println("La canción no se encuentra en la lista.");
     }
+
+    public void pausarCancion() {
+        if (player != null && !isPaused) {
+            player.close();
+            isPaused = true;
+            System.out.println("Canción pausada.");
+        } else {
+            System.out.println("No hay ninguna canción reproduciéndose.");
+        }
+    }
+
+    public void actualizarListaCanciones(ListaDouble nuevaLista) {
+        this.listaCanciones = nuevaLista;
+    }
+
+    public void resumirCancion() {
+        if (currentSong != null && isPaused) {
+            reproducirAudio(currentSong.data.getFile());
+            isPaused = false;
+            System.out.println("Canción reanudada.");
+        } else {
+            System.out.println("No hay ninguna canción pausada.");
+        }
+    }
+
+    public void reproducirPrimeraCancion() {
+        if (listaCanciones.isEmpty()) {
+            System.out.println("No hay canciones en la lista.");
+            return;
+        }
+        reproducirCancion(listaCanciones.getHead().data.getFile().getName());
+    }
+
 
     private void reproducirAudio(File audioFile) {
         try {
@@ -75,17 +112,37 @@ public class ReproductorMusica {
         }
     }
 
+    public void darLike() {
+        if (currentSong != null) {
+            currentSong.data.setValue(currentSong.data.getValue() + 1);
+            System.out.println("Has dado like a la canción: " + currentSong.data.getFile().getName());
+            LikeDislikePersistence.guardarLikesDislikes(listaCanciones);
+        } else {
+            System.out.println("No hay ninguna canción reproduciéndose.");
+        }
+    }
+
+    public void darDislike() {
+        if (currentSong != null) {
+            currentSong.data.setValue(currentSong.data.getValue() - 1);
+            System.out.println("Has dado dislike a la canción: " + currentSong.data.getFile().getName());
+            LikeDislikePersistence.guardarLikesDislikes(listaCanciones);
+        } else {
+            System.out.println("No hay ninguna canción reproduciéndose.");
+        }
+    }
+
+
     public static void main(String[] args) throws IOException {
         InventarioCanciones inventario = new InventarioCanciones();
-        inventario.createInitialSongList();
-        ListaDouble listaCanciones = inventario.listaCanciones;
+        ListaDouble listaCanciones = InventarioCanciones.obtenerListaCanciones();
 
         ReproductorMusica reproductor = new ReproductorMusica(listaCanciones);
         Scanner scanner = new Scanner(System.in);
 
         Thread commandThread = new Thread(() -> {
             while (true) {
-                System.out.println("Comandos: reproducir [nombre], siguiente, anterior, salir");
+                System.out.println("Comandos: reproducir [nombre], siguiente, anterior, stop, comunity, salir");
                 System.out.print("Ingrese un comando: ");
                 String comando = scanner.nextLine();
 
@@ -97,8 +154,27 @@ public class ReproductorMusica {
                     reproductor.reproducirCancion(nombreCancion);
                 } else if (comando.equalsIgnoreCase("siguiente")) {
                     reproductor.siguienteCancion();
+                } else if (comando.equalsIgnoreCase("stop")) {
+                    reproductor.pausarCancion();
                 } else if (comando.equalsIgnoreCase("anterior")) {
                     reproductor.anteriorCancion();
+                } else if (comando.equalsIgnoreCase("resumir")) {
+                    reproductor.resumirCancion();
+                } else if (comando.equalsIgnoreCase("community")) {
+                    ListaDouble nuevaListaCanciones = null;
+                    try {
+                        nuevaListaCanciones = InventarioCanciones.obtenerListaCanciones();
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                    LikeDislikePersistence.cargarLikesDislikes(nuevaListaCanciones);
+                    nuevaListaCanciones.sortDescending(); // Ordenar la lista en orden descendente según los nuevos valores de likes y dislikes
+                    reproductor.actualizarListaCanciones(nuevaListaCanciones);
+                    reproductor.reproducirPrimeraCancion();
+                } else if (comando.equalsIgnoreCase("like")) {
+                    reproductor.darLike();
+                } else if (comando.equalsIgnoreCase("dislike")) {
+                    reproductor.darDislike();
                 } else {
                     System.out.println("Comando no reconocido.");
                 }

@@ -128,7 +128,7 @@ public class ListaDouble {
         } while (swapped);
     }
 
-    public void display() {
+    public boolean display() {
         if (isEmpty()) {
             System.out.println("La lista está vacía.");
             return false;
