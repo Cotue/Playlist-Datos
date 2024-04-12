@@ -1,10 +1,7 @@
 package Logica;
 
 
-import org.json.simple.JSONObject;
-import org.json.simple.JsonObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -67,11 +64,10 @@ public class CommunityServer {
         }
     }
 
-    private String getResponse(String dataFromClient) throws ParseException {
-        JSONParser parser = new JSONParser();
-        JSONObject json = (JSONObject) parser.parse(dataFromClient);
+    private String getResponse(String dataFromClient){
+
         //JsonObject command = new JsonObject();
-        System.out.println(json.get("command"));
+        System.out.println(dataFromClient);
         return dataFromClient.toUpperCase();
     }
 
