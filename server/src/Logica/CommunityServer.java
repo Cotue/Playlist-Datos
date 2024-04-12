@@ -1,6 +1,11 @@
 package Logica;
 
 
+import org.json.simple.JSONObject;
+import org.json.simple.JsonObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
@@ -62,8 +67,11 @@ public class CommunityServer {
         }
     }
 
-    private String getResponse(String dataFromClient) {
-        System.out.println(dataFromClient);
+    private String getResponse(String dataFromClient) throws ParseException {
+        JSONParser parser = new JSONParser();
+        JSONObject json = (JSONObject) parser.parse(dataFromClient);
+        //JsonObject command = new JsonObject();
+        System.out.println(json.get("command"));
         return dataFromClient.toUpperCase();
     }
 

@@ -53,8 +53,8 @@ public class ListaCircular<T> {
 
             } else  {
                 inList(artist).canciones.add(newSong);//.canciones.add(newSong);
-                System.out.println(artist);
-                System.out.println(inList(artist).canciones);
+                //System.out.println(artist);
+                //System.out.println(inList(artist).canciones);
             }
         }
     }

@@ -2,6 +2,7 @@
 using System.Text;
 using System.Net.Sockets;
 using System.Threading;
+using cliente;
 
 namespace Sockets
 {
@@ -54,6 +55,7 @@ namespace Sockets
 
             client.Close();
         }
+
 
     }
 

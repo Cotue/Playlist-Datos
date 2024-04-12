@@ -3,7 +3,7 @@ package Logica;
 import java.io.*;
 
 public class LikeDislikePersistence {
-    private static final String FILE_PATH = "C:\\Users\\X\\Documents\\Proyecto PL\\Playlist-Datos\\server\\src\\Logica\\Likes\\Likes.txt";
+    private static final String FILE_PATH = "./src/Logica/Likes/Likes.txt";
 
     public static void guardarLikesDislikes(ListaDouble lista) {
         try (PrintWriter writer = new PrintWriter(new FileWriter(FILE_PATH))) {

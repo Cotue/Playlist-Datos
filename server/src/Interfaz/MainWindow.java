@@ -9,20 +9,26 @@ import java.io.IOException;
 
 import Logica.CustomServer;
 import Logica.InventarioCanciones;
+import Logica.ReproductorMusica;
 
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 
 public class MainWindow{
     private static JFrame mainFrame;
+    public static ReproductorMusica reproductor;
+
+    public static JButton playButton;
 
 
 
     public MainWindow() {
         getInitialLists();
         prepareGUI();
+        reproductor = new ReproductorMusica(InventarioCanciones.listaCanciones);
     }
     public static void main(String[] args) throws IOException {
+
         MainWindow mainWindow = new MainWindow();
         //mainWindow.CreateStartCommunityPanel();
         mainWindow.CreateSidePanel();
@@ -35,6 +41,8 @@ public class MainWindow{
     private void getInitialLists() {
         try {
             InventarioCanciones.obtenerListaCanciones();
+
+            System.out.println(InventarioCanciones.listaCanciones);
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -51,7 +59,8 @@ public class MainWindow{
         mainFrame.setLayout(new BorderLayout());
         mainFrame.setLocationRelativeTo(null);
         //mainFrame.setResizable(false);
-
+        System.out.println("2");
+        System.out.println(InventarioCanciones.listaCanciones);
 
 
 
@@ -149,14 +158,24 @@ public class MainWindow{
         scrollPane.getVerticalScrollBar().setBackground(Color.decode("#1a1a1a"));
         sidePanel.add(scrollPane, BorderLayout.CENTER);
     }
-    private void CreateSongPanel() {
+    private void CreateSongPanel() throws IOException {
         JPanel songPanel = new JPanel();
         //songPanel.setBorder(BorderFactory.createEmptyBorder(0,10,10,10));//.setBackground(Color.yellow);
         songPanel.setBackground(Color.decode("#0B121E"));
+        songPanel.setLayout(new GridBagLayout());
         //songPanel.setBounds(300,0,900,600);
-        songPanel.setPreferredSize(new Dimension(900,400));
+        //songPanel.setPreferredSize(new Dimension(900,400));
 
-        mainFrame.add(songPanel, BorderLayout.CENTER);
+        InventarioCanciones.listaCanciones.songRows(songPanel);
+
+        JScrollPane scrollPane = new JScrollPane(songPanel);
+        scrollPane.setBackground(Color.decode("#0B121E"));
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setBorder(BorderFactory.createEmptyBorder());
+        scrollPane.getVerticalScrollBar().setBackground(Color.decode("#1a1a1a"));
+        //sidePanel.add(scrollPane, BorderLayout.CENTER);
+
+        mainFrame.add(scrollPane, BorderLayout.CENTER);
 
     }
     private void CreateControlPanel() {
@@ -194,13 +213,14 @@ public class MainWindow{
             @Override
             public void actionPerformed(ActionEvent e) {
                 // go to the previous song
-                //musicPlayer.prevSong();
+                reproductor.anteriorCancion();
+                System.out.println(InventarioCanciones.listaCanciones.display());
             }
         });
         controlsJP.add(prevButton);
 
         // play button
-        JButton playButton = new JButton(loadImage("./src/Interfaz/assets/play.png"));
+        playButton = new JButton(loadImage("./src/Interfaz/assets/play.png"));
         playButton.setBorderPainted(false);
         playButton.setBackground(null);
         JPanel finalControlsJP = controlsJP;
@@ -211,7 +231,12 @@ public class MainWindow{
                 enablePauseButtonDisablePlayButton(finalControlsJP);
 
                 // play or resume song
-                //musicPlayer.playCurrentSong();
+                try {
+                    reproductor.resumirCancion();
+                } catch(Exception exception){
+                    reproductor.reproducirPrimeraCancion();
+                }
+
             }
         });
         controlsJP.add(playButton);
@@ -229,7 +254,7 @@ public class MainWindow{
                 enablePlayButtonDisablePauseButton(finalControlsJP1);
 
                 // pause the song
-                //musicPlayer.pauseSong();
+                reproductor.pausarCancion();
             }
         });
         controlsJP.add(pauseButton);
@@ -243,6 +268,7 @@ public class MainWindow{
             public void actionPerformed(ActionEvent e) {
                 // go to the next song
                 //musicPlayer.nextSong();
+                reproductor.siguienteCancion();
             }
         });
         controlsJP.add(nextButton);

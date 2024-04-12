@@ -2,6 +2,8 @@ package Logica;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
+
+import Interfaz.MainWindow;
 import javazoom.jl.player.Player;
 import java.io.FileInputStream;
 
@@ -11,6 +13,8 @@ public class ReproductorMusica {
     private Player player;
     private boolean isPaused;
     private long pausePosition;
+
+    public ReproductorMusica reproductor;
 
     public ReproductorMusica(ListaDouble listaCanciones) {
         this.listaCanciones = listaCanciones;
@@ -65,6 +69,7 @@ public class ReproductorMusica {
             return;
         }
         reproducirCancion(listaCanciones.getHead().data.getFile().getName());
+        MainWindow.playButton.doClick();
     }
 
 
@@ -137,7 +142,8 @@ public class ReproductorMusica {
         InventarioCanciones inventario = new InventarioCanciones();
         ListaDouble listaCanciones = InventarioCanciones.obtenerListaCanciones();
 
-        ReproductorMusica reproductor = new ReproductorMusica(listaCanciones);
+        ReproductorMusica reproductor = MainWindow.reproductor;
+
         Scanner scanner = new Scanner(System.in);
 
         Thread commandThread = new Thread(() -> {
