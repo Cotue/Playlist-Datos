@@ -1,10 +1,13 @@
 package Logica;
 
 import java.io.File;
+import java.io.IOException;
 
 public class InventarioCanciones {
-    public static ListaDouble obtenerListaCanciones() {
-        File carpeta = new File("C:\\Users\\X\\Documents\\Proyecto PL\\Playlist-Datos\\server\\src\\Logica\\Listas\\Canciones");
+    public static ListaDouble listaCanciones;
+    public static ListaCircular listaArtistas = new ListaCircular();
+    public static ListaDouble obtenerListaCanciones() throws IOException {
+        File carpeta = new File("./src/Logica/Listas/Canciones");
 
         // Verificar si el directorio "Canciones" existe
         if (!carpeta.exists() || !carpeta.isDirectory()) {
@@ -20,13 +23,13 @@ public class InventarioCanciones {
         }
 
         // Crear la lista de canciones
-        ListaDouble lista = new ListaDouble(archivos);
-        lista.sortDescending(); // Ordenar la lista en orden descendente
-        return lista;
+        listaCanciones = new ListaDouble(archivos);
+        listaCanciones.sortDescending(); // Ordenar la lista en orden descendente
+        return listaCanciones;
     }
 
-    public static void main(String[] args) {
-        File carpeta = new File("C:\\Users\\X\\Documents\\Proyecto PL\\Playlist-Datos\\server\\src\\Logica\\Listas\\Canciones");
+    public static void main(String[] args) throws IOException {
+        File carpeta = new File("./src/Logica/Listas/Canciones");
 
         // Verificar si el directorio "Canciones" existe
         if (!carpeta.exists() || !carpeta.isDirectory()) {
@@ -42,8 +45,13 @@ public class InventarioCanciones {
         }
 
         // Crear la lista de canciones
-        ListaDouble lista = new ListaDouble(archivos);
-        lista.sortDescending(); // Ordenar la lista en orden descendente
-        lista.display(); // Mostrar la lista ordenada
+        listaCanciones = new ListaDouble(archivos);
+
+        listaCanciones.sortDescending(); // Ordenar la lista en orden descendente
+        listaCanciones.display(); // Mostrar la lista ordenada
+        //return lista;
     }
+
+
+    //C:/Users/Usuario/Documents/GitHub/Playlist-Datos/server/src/
 }

@@ -19,3 +19,42 @@ C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.csproj.CoreC
 C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.exe
 C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.pdb
 C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.Form2.resources
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Text.Json.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\Joel\Playlist-Datos\cliente\obj\Debug\cliente.csproj.Up2Date
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Buffers.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Memory.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Text.Json.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.ValueTuple.dll
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Buffers.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Memory.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Text.Json.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\bin\Debug\System.ValueTuple.xml
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\obj\Debug\cliente.Form2.resources
+C:\Users\Usuario\Desktop\Universidad\2024_S1\Datos 1\Community_Playlist\cliente\obj\Debug\cliente.csproj.Up2Date

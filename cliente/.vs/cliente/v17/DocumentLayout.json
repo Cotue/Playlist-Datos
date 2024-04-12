@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|c:\\users\\user\\desktop\\joel\\playlist-datos\\cliente\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\communityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|c:\\users\\usuario\\desktop\\universidad\\2024_s1\\datos 1\\community_playlist\\cliente\\communityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:communityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|c:\\users\\user\\desktop\\joel\\playlist-datos\\cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65418D2B-541A-47F2-851B-145D23AD6CBA}|cliente.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAuwBkAAAAtAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T07:05:21.387Z",
               "IsPinned": true,
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CommunityClient.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\CommunityClient.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\CommunityClient.cs",
               "RelativeDocumentMoniker": "CommunityClient.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\CommunityClient.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\CommunityClient.cs",
               "RelativeToolTip": "CommunityClient.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAiwF8AAAAAAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAawF8AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T08:25:47.555Z",
               "IsPinned": true,
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form2.cs*",
-              "RelativeToolTip": "Form2.cs*",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T21:00:53.38Z",
               "EditorCaption": ""
@@ -85,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,12 +96,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form2.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Form2.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T05:38:21.789Z",
               "EditorCaption": " [Dise\u00F1o]"
@@ -110,9 +110,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAawFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Joel\\Playlist-Datos\\cliente\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\2024_S1\\Datos 1\\Community_Playlist\\cliente\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T06:56:46.301Z",

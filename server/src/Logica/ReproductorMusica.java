@@ -1,7 +1,9 @@
 package Logica;
-
 import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
+
+import Interfaz.MainWindow;
 import javazoom.jl.player.Player;
 import java.io.FileInputStream;
 
@@ -11,6 +13,8 @@ public class ReproductorMusica {
     private Player player;
     private boolean isPaused;
     private long pausePosition;
+
+    public ReproductorMusica reproductor;
 
     public ReproductorMusica(ListaDouble listaCanciones) {
         this.listaCanciones = listaCanciones;
@@ -65,6 +69,7 @@ public class ReproductorMusica {
             return;
         }
         reproducirCancion(listaCanciones.getHead().data.getFile().getName());
+        MainWindow.playButton.doClick();
     }
 
 
@@ -133,11 +138,12 @@ public class ReproductorMusica {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         InventarioCanciones inventario = new InventarioCanciones();
         ListaDouble listaCanciones = InventarioCanciones.obtenerListaCanciones();
 
-        ReproductorMusica reproductor = new ReproductorMusica(listaCanciones);
+        ReproductorMusica reproductor = MainWindow.reproductor;
+
         Scanner scanner = new Scanner(System.in);
 
         Thread commandThread = new Thread(() -> {
@@ -161,7 +167,12 @@ public class ReproductorMusica {
                 } else if (comando.equalsIgnoreCase("resumir")) {
                     reproductor.resumirCancion();
                 } else if (comando.equalsIgnoreCase("community")) {
-                    ListaDouble nuevaListaCanciones = InventarioCanciones.obtenerListaCanciones();
+                    ListaDouble nuevaListaCanciones = null;
+                    try {
+                        nuevaListaCanciones = InventarioCanciones.obtenerListaCanciones();
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
                     LikeDislikePersistence.cargarLikesDislikes(nuevaListaCanciones);
                     nuevaListaCanciones.sortDescending(); // Ordenar la lista en orden descendente según los nuevos valores de likes y dislikes
                     reproductor.actualizarListaCanciones(nuevaListaCanciones);
@@ -188,4 +199,3 @@ public class ReproductorMusica {
         scanner.close();
     }
 }
-
