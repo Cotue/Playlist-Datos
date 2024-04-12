@@ -1,12 +1,34 @@
 package Logica;
+
 import java.io.File;
 import java.io.IOException;
 
 public class InventarioCanciones {
     public static ListaDouble listaCanciones;
     public static ListaCircular listaArtistas = new ListaCircular();
+    public static ListaDouble obtenerListaCanciones() throws IOException {
+        File carpeta = new File("./src/Logica/Listas/Canciones");
 
-    public static void createInitialSongList() throws IOException {
+        // Verificar si el directorio "Canciones" existe
+        if (!carpeta.exists() || !carpeta.isDirectory()) {
+            System.out.println("La carpeta Canciones no existe.");
+            return null;
+        }
+
+        // Obtener una lista de archivos dentro de la carpeta
+        File[] archivos = carpeta.listFiles();
+        if (archivos == null || archivos.length == 0) {
+            System.out.println("La carpeta Canciones está vacía.");
+            return null;
+        }
+
+        // Crear la lista de canciones
+        listaCanciones = new ListaDouble(archivos);
+        listaCanciones.sortDescending(); // Ordenar la lista en orden descendente
+        return listaCanciones;
+    }
+
+    public static void main(String[] args) throws IOException {
         File carpeta = new File("./src/Logica/Listas/Canciones");
 
         // Verificar si el directorio "Canciones" existe
@@ -25,41 +47,9 @@ public class InventarioCanciones {
         // Crear la lista de canciones
         listaCanciones = new ListaDouble(archivos);
 
-        //
-        // obtenerListaCanciones();
-        //lista.getMetadata();
-        //obtenerListaCanciones();
-    }
-
-    public static void setListaArtistas(ListaCircular lista) {
-        listaArtistas = lista;
-    }
-    public static ListaDouble obtenerListas() throws IOException {
-        if (listaCanciones == null) {
-            createInitialSongList();
-        }
-        //System.out.println(listaCanciones.contarElementos());
-        return listaCanciones;
-    }
-
-    public Object obtenerListaArtistas() throws IOException {
-        File carpeta = new File("./src/Logica/Listas/Canciones");
-        // Verificar si el directorio "Canciones" existe
-        if (!carpeta.exists() || !carpeta.isDirectory()) {
-            System.out.println("La carpeta Canciones no existe.");
-            return null;
-        }
-
-        // Obtener una lista de archivos dentro de la carpeta
-        File[] archivos = carpeta.listFiles();
-        if (archivos == null || archivos.length == 0) {
-            System.out.println("La carpeta Canciones está vacía.");
-            return null;
-        }
-
-        // Crear la lista de canciones
-        ListaDouble lista = new ListaDouble(archivos);
-        return lista;
+        listaCanciones.sortDescending(); // Ordenar la lista en orden descendente
+        listaCanciones.display(); // Mostrar la lista ordenada
+        //return lista;
     }
 
 
