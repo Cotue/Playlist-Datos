@@ -11,6 +11,7 @@ public class CommunityServer {
 
     private final int port;
     private final int backlog;
+    public ServerSocket serverSocket;
 
     public CommunityServer(int port, int backlog) {
         this.port = port;
@@ -26,9 +27,12 @@ public class CommunityServer {
 
 
         try (ServerSocket serverSocket = new ServerSocket(port, backlog)) {
+            this.serverSocket = serverSocket;
 
             System.out.println("Started Listening for clients");
-            while (true) {
+            boolean running = true;
+            while (running) {
+
 
                 // take input and output streams
                 try (Socket client = serverSocket.accept();
@@ -40,7 +44,7 @@ public class CommunityServer {
                     pw.write(response);
 
                 }catch(Exception e){
-                    e.printStackTrace();
+                    running = false;
                 }
 
             }

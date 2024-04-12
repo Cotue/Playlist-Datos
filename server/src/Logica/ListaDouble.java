@@ -41,7 +41,7 @@ public class ListaDouble {
 
     private Node head;
     private Node tail;
-    private ListaCircular listaCircular = new ListaCircular();
+
 
     public ListaDouble() {
         this.head = null;
@@ -54,6 +54,8 @@ public class ListaDouble {
                 insertAtEnd(new MP3File(file));
             }
         }
+        //listaCircular.print();
+        //InventarioCanciones.setListaArtistas(listaCircular);
     }
 
     public boolean isEmpty() {
@@ -63,8 +65,8 @@ public class ListaDouble {
     public void insertAtEnd(MP3File data) throws IOException {
         Node newNode = new Node(data);
         String metaData = getMetadata(newNode).getFirst(FieldKey.ARTIST);
-        listaCircular.insertInCircular(metaData, newNode);
-        listaCircular.print();
+        InventarioCanciones.listaArtistas.insertInCircular(metaData, newNode);
+        //add(newNode);
         if (isEmpty()) {
             head = tail = newNode;
         } else {
@@ -72,9 +74,41 @@ public class ListaDouble {
             newNode.previous = tail;
             tail = newNode;
         }
+
     }
 
+    public void add(Node cancion) throws IOException {
+        Node newNode = cancion;
+        String metaData = getMetadata(newNode).getFirst(FieldKey.ARTIST);
+        //System.out.println(metaData);
+        //InventarioCanciones.listaArtistas.insertInCircular(metaData, newNode);
+        if (isEmpty()) {
+            head = tail = newNode;
+        } else {
+            tail.next = newNode;
+            newNode.previous = tail;
+            tail = newNode;
+        }
 
+
+
+////        ListaDouble listaCanciones =  InventarioCanciones.obtenerListaCanciones();
+////
+////        listaCanciones.display();
+//        Logica.ListaCircular.NodeCircular<T> newSong = new Logica.ListaCircular.NodeCircular<>(cancion);
+//        if (this.tail == null) {
+//            newSong.next = newSong;
+//            this.tail = newSong;
+//        } else {
+//            if (!inList(cancion)) {
+//                newSong.next = this.tail.next;
+//                this.tail.next = newSong;
+//                this.tail = newSong;
+//
+//            }
+//        }
+
+    }
 
     public boolean display() {
         if (isEmpty()) {
@@ -131,7 +165,25 @@ public class ListaDouble {
         return null;
     }
 
+    public int contarElementos() {
+        int numeroElementos = 0;
+        if (isEmpty()) {
+            System.out.println("La lista está vacía.");
+            return numeroElementos;
+        }
+
+        Node current = head;
+        while (current != null) {
+            current = current.next;
+            numeroElementos++;
+        }
+        return numeroElementos;
+    }
+
     public Node getHead() {
         return head;
+    }
+    public Node getTail() {
+        return tail;
     }
 }
